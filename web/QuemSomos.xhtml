@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    
+    <h:body>
+            <div id="cabecalho">
+            <ui:insert name="cabecalho">
+                 <table border="0" width="900" align="center">
+            <tr>
+                <td> <img src="imagens/logo.png"/> </td>
+                <td>
+                   
+                    <h:form>
+                    <h:commandButton value="Home" action="index.xhtml"></h:commandButton>
+                    <h:commandButton value="Quem Somos Nós?" action="QuemSomos.xhtml"></h:commandButton>
+                    <h:commandButton value="Login" action="login.xhtml"></h:commandButton>
+                    </h:form>
+                </td>
+                
+            </tr>
+            
+            <tr>
+                <td colspan="2" align="right">
+                    <label for="pesquisar">Pesquisar</label>
+                    <input type="search" id="pesquisa" placeholder="Pesquise"></input>
+                </td>
+                         
+            </tr>
+            
+            <tr>
+                <td colspan="2"><img src="imagens/imagem.png"/></td>
+            </tr>
+        </table>
+                <table border="0" width="900" align="center">
+                    <tr>
+                        <td>
+                            <h2 align="center">Quem somos nós?</h2>
+                            <p align="justify">Somos alunos da FACULDADE DO MARANHÃO FACAM-MA, estamos no 4º periodo do
+                            curso de ANÁLISE E DESENVOLVIMENTO DE SISTEMAS. E estamos desenvolvendo esse aplicativo
+                            para melhorar a vida dos usúarios de postos de combustiveis de São Luis-MA.</p>
+                            <h3 align="center">Desenvolvedores</h3>
+                            <table border="0" width="900" align="center">
+                                <tr>
+                                    <td>
+                                        <li>Hélio Victor</li>
+                                        <li>Ismael Juquinha</li>
+                                        <li>Lucas Ewerton</li>
+                                    </td>
+                                </tr>
+                            </table>
+                            
+                        </td>
+                    </tr>
+                </table>
+            
+        
+            </ui:insert>            
+        </div>
+    </h:body>
+</html>
+
